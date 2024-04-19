@@ -92,7 +92,6 @@ public class UserInterface {
                if(player.isBlackJack()){
                    break;
                } else if (player.isBust()){
-                   System.out.println("You busted! - value: " + player.getSum());
                    break;
                }
             } else {
