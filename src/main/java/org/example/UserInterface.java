@@ -93,6 +93,7 @@ public class UserInterface {
                    break;
                } else if (player.isBust()){
                    System.out.println("You busted! - value: " + player.getSum());
+                   break;
                }
             } else {
                 System.out.println("Command not recognized. `Hit` or `Stay` bozo");
